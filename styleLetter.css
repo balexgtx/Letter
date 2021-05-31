@@ -96,4 +96,25 @@ textarea {
   margin: 0;
   resize: none;
 }
+
+.triangle {
+  height: 40px;
+  background: red;
+  color: #fff;
+  position: relative;
+  width: 200px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.triangle:after {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 100%;
+  top: 0;
+  border: 20px solid transparent;
+  border-left: 20px solid red;
+}
 /*# sourceMappingURL=styleLetter.css.map */
